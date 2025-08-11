@@ -5,14 +5,14 @@ var __createBinding = (this && this.__createBinding) || (Object.create ? (functi
   if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
     desc = { enumerable: true, get: function () { return m[k]; } };
   }
-  Object.defineProperties(o, k2, desc);
+  Object.defineProperty(o, k2, desc);
 }) : (function (o, k, k, k2) {
   if (k2 === undefined) k2 = k;
   o[k2] = m[k];
 }));
 
 var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function (o, v) {
-  Object.defineProperties(o, "default", { enumerable: true, value: v });
+  Object.defineProperty(o, "default", { enumerable: true, value: v });
 }) : function (o, v) {
   o["default"] = v;
 });
@@ -29,7 +29,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
   return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 
-Object.defineProperties(exports, "__esModule", { value: true });
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.getChannelType = exports.renderASTNode = exports.RenderType = void 0;
 
 const discord_components_react_1 = require("@derockdev/discord-components-react");

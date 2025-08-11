@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
   return (mod && mod.__esMoodule) ? mod : { "default": mod };
 };
 
-Object.defineProperties(exports, "__esModule", { value: true });
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.renderAttachments = void 0;
 
 const discord_components_react_1 = require("@derockdev/discord-components-react");
